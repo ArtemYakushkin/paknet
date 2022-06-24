@@ -130,4 +130,103 @@ button {
 .header__contacts-icon:hover {
   fill: #ca5100;
 }
+
+.hero {
+  background-image: linear-gradient(90deg, #e3e3e3, #ffffff);
+  padding: 100px 0;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__right {
+  max-width: 600px;
+}
+
+.hero__title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #5d5e5f;
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  font-size: 25px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
+  color: #909090;
+}
+
+.hero__text--first {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.hero__text--first::before {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 1px;
+  background-color: #ca5100;
+  top: 50%;
+  left: -40px;
+}
+
+.hero__text--second {
+  margin-left: 80px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.hero__text--second::before {
+  position: absolute;
+  content: '';
+  width: 65px;
+  height: 1px;
+  background-color: #ca5100;
+  top: 50%;
+  left: -80px;
+}
+
+.hero__text--therd {
+  margin-left: 120px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.hero__text--therd::before {
+  position: absolute;
+  content: '';
+  width: 105px;
+  height: 1px;
+  background-color: #ca5100;
+  top: 50%;
+  left: -120px;
+}
+
+.hero__text--forse {
+  margin-left: 160px;
+  position: relative;
+}
+
+.hero__text--forse::before {
+  position: absolute;
+  content: '';
+  width: 145px;
+  height: 1px;
+  background-color: #ca5100;
+  top: 50%;
+  left: -160px;
+}
 /*# sourceMappingURL=main.css.map */
