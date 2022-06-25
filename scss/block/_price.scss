@@ -37,14 +37,14 @@
     }
 
     &__card--250 {
-        background: url('/img/250ml.jpg') 
+        background: url('../img/250ml.jpg') 
         center 
         center 
         no-repeat; 
         background-size: 360px;
 
         &:hover {
-            background: url('/img/250ml.jpg')
+            background: url('../img/250ml.jpg')
             left 
             center 
             no-repeat;
@@ -61,14 +61,14 @@
     }
 
     &__card--350 {
-        background: url('/img/350ml.jpg') 
+        background: url('../img/350ml.jpg') 
         center 
         center 
         no-repeat;
         background-size: 360px;
 
         &:hover {
-            background: url('/img/350ml.jpg') 
+            background: url('../img/350ml.jpg') 
             left 
             center 
             no-repeat;
@@ -85,14 +85,14 @@
     }
 
     &__card--450 {
-        background: url('/img/450ml.jpg') 
+        background: url('../img/450ml.jpg') 
         center 
         center 
         no-repeat;
         background-size: 360px;
 
         &:hover {
-            background: url('/img/450ml.jpg') 
+            background: url('../img/450ml.jpg') 
             left 
             center 
             no-repeat;
