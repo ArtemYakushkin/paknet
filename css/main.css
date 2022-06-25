@@ -229,4 +229,193 @@ button {
   top: 50%;
   left: -160px;
 }
+
+.about {
+  padding: 100px 0;
+}
+
+.about__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.about__wrapp {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #ca5100;
+  border-radius: 20px;
+}
+
+.about__border {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.about__icon {
+  fill: #3c3c3c;
+  margin: 70px;
+}
+
+.about__overlay {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.5;
+  padding: 50px;
+  background-color: transparent;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 300ms;
+  overflow: auto;
+}
+
+.about__item:hover .about__overlay {
+  transform: translateY(0);
+}
+
+.price {
+  padding: 100px 0;
+}
+
+.price__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.price__border {
+  height: 530px;
+  width: 350px;
+  padding: 0 20px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 0.8s;
+  position: relative;
+}
+
+.price__border:hover {
+  border: 1px solid #000000;
+}
+
+.price__card {
+  height: 540px;
+  width: 360px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 20px 20px 20px -25px #3c3c3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.price__card--250 {
+  background: url("/img/250ml.jpg") center center no-repeat;
+  background-size: 360px;
+}
+
+.price__card--250:hover {
+  background: url("/img/250ml.jpg") left center no-repeat;
+  background-size: 620px;
+}
+
+.price__card--250:hover .price__title {
+  opacity: 1;
+}
+
+.price__card--250:hover .price__item {
+  opacity: 1;
+}
+
+.price__card--350 {
+  background: url("/img/350ml.jpg") center center no-repeat;
+  background-size: 360px;
+}
+
+.price__card--350:hover {
+  background: url("/img/350ml.jpg") left center no-repeat;
+  background-size: 620px;
+}
+
+.price__card--350:hover .price__title {
+  opacity: 1;
+}
+
+.price__card--350:hover .price__item {
+  opacity: 1;
+}
+
+.price__card--450 {
+  background: url("/img/450ml.jpg") center center no-repeat;
+  background-size: 360px;
+}
+
+.price__card--450:hover {
+  background: url("/img/450ml.jpg") left center no-repeat;
+  background-size: 620px;
+}
+
+.price__card--450:hover .price__title {
+  opacity: 1;
+}
+
+.price__card--450:hover .price__item {
+  opacity: 1;
+}
+
+.price__title {
+  opacity: 0;
+  transition: opacity 1s;
+  margin: 20px 0 300px 0;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.price__item {
+  opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price__item::before {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000000;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.price__text {
+  font-size: 16px;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+}
+
+.price__description {
+  order: -1;
+}
 /*# sourceMappingURL=main.css.map */
