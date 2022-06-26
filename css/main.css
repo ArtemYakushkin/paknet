@@ -289,11 +289,24 @@ button {
   padding: 100px 0;
 }
 
+.price__title-top {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #5d5e5f;
+  margin-bottom: 30px;
+}
+
 .price__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .price__border {
@@ -326,12 +339,12 @@ button {
 }
 
 .price__card--250 {
-  background: url("/img/250ml.jpg") center center no-repeat;
+  background: url("../img/250ml.jpg") center center no-repeat;
   background-size: 360px;
 }
 
 .price__card--250:hover {
-  background: url("/img/250ml.jpg") left center no-repeat;
+  background: url("../img/250ml.jpg") left center no-repeat;
   background-size: 620px;
 }
 
@@ -344,12 +357,12 @@ button {
 }
 
 .price__card--350 {
-  background: url("/img/350ml.jpg") center center no-repeat;
+  background: url("../img/350ml.jpg") center center no-repeat;
   background-size: 360px;
 }
 
 .price__card--350:hover {
-  background: url("/img/350ml.jpg") left center no-repeat;
+  background: url("../img/350ml.jpg") left center no-repeat;
   background-size: 620px;
 }
 
@@ -362,12 +375,12 @@ button {
 }
 
 .price__card--450 {
-  background: url("/img/450ml.jpg") center center no-repeat;
+  background: url("../img/450ml.jpg") center center no-repeat;
   background-size: 360px;
 }
 
 .price__card--450:hover {
-  background: url("/img/450ml.jpg") left center no-repeat;
+  background: url("../img/450ml.jpg") left center no-repeat;
   background-size: 620px;
 }
 
@@ -417,5 +430,20 @@ button {
 
 .price__description {
   order: -1;
+}
+
+.price__post-text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+}
+
+.price__post-text--top {
+  border-top: 1px solid #ca5100;
+}
+
+.price__post-text--bottom {
+  border-bottom: 1px solid #ca5100;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,11 +1,24 @@
 .price {
     padding: 100px 0;
 
+    &__title-top {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #5d5e5f;
+        margin-bottom: 30px;
+    }
+
     &__inner {
         display: flex; 
         justify-content: space-between; 
         align-items: center; 
         margin: 0 auto;
+        margin-bottom: 80px;
     }
 
     &__border {
@@ -148,5 +161,18 @@
         order: -1;
     }
 
-   
+    &__post-text {
+        text-align: center;
+        font-size: 20px;
+        line-height: 2.14;
+        letter-spacing: 0.02em;
+    }
+
+    &__post-text--top {
+        border-top: 1px solid #ca5100;
+    }
+
+    &__post-text--bottom {
+        border-bottom: 1px solid #ca5100;
+    }
 }
