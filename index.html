@@ -33,6 +33,13 @@
       <div class="container">
         <div class="header__inner">
           <img class="header__logo" src="./img/logo.png" alt="logo" />
+
+          <!-- Кнопка бургер -->
+          <button class="header__burger js-open-menu">
+            <span></span>
+          </button>
+          <!-- ------------------- -->
+
           <ul class="header__list">
             <li class="header__item">
               <a class="header__link" href="#">О нас</a>
@@ -78,10 +85,65 @@
           </ul>
         </div>
       </div>
+
+      <!-- Бургер меню -->
+      <div class="burger js-menu-container" id="mobile-menu">
+        <div class="container">
+          <div class="burger__wrapp">
+            <img class="burger__logo" src="./img/logo.png" alt="logo" />
+            <button class="burger__close js-close-menu">
+              <span></span>
+            </button>
+          </div>
+          <ul class="burger__contacts">
+            <li class="burger__contacts-item">
+              <a class="burger__contacts-link" href="tel:+79686620659">
+                <svg class="burger__contacts-icon" width="30" height="30">
+                  <use href="./img/symbol-defs.svg#icon-local_phone_icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger__contacts-item">
+              <a
+                class="burger__contacts-link"
+                href="mailto:paknetmsk@gmail.com"
+              >
+                <svg class="burger__contacts-icon" width="30" height="30">
+                  <use
+                    href="./img/symbol-defs.svg#icon-e_email_letter_mail_icon"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="burger__contacts-item">
+              <a
+                class="burger__contacts-link"
+                target="_blank"
+                href="https://www.instagram.com/paknet.ru/"
+              >
+                <svg class="burger__contacts-icon" width="30" height="30">
+                  <use href="./img/symbol-defs.svg#icon-instagram_icon"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <ul class="burger__list">
+            <li class="burger__item">
+              <a class="burger__link" href="#">О нас</a>
+            </li>
+            <li class="burger__item">
+              <a class="burger__link" href="#">Прайс-лист</a>
+            </li>
+            <li class="burger__item">
+              <a class="burger__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <div class="hero__inner">
             <div class="hero__left">
@@ -96,9 +158,9 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="about">
+      <!-- <section class="about">
         <div class="container">
           <div class="about__inner">
             <ul class="about__list">
@@ -204,9 +266,9 @@
             </ul>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="price">
+      <!-- <section class="price">
         <div class="container">
           <h2 class="price__title-top">Наши товары</h2>
           <div class="price__inner">
@@ -287,9 +349,17 @@
             Доставка транспорной компанией ПЭК - бесплатно до терминала
           </p>
         </div>
+      </section> -->
+
+      <section class="gallery">
+        <div class="container">
+          <div class="gallery__inner"></div>
+        </div>
       </section>
     </main>
 
     <footer></footer>
+
+    <script src="./js/burger-menu.js"></script>
   </body>
 </html>
