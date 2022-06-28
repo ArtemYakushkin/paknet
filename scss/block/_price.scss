@@ -176,3 +176,99 @@
         border-bottom: 1px solid #ca5100;
     }
 }
+
+@media screen and (max-width: 1160px) {
+    .price {
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__card--250 {
+            margin-right: 30px;
+            margin-bottom: 30px;
+        }
+
+        &__card--350 {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .price {
+        padding: 50px 0;
+
+        &__title-top {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        &__card--250 {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+
+        &__card--350 {
+            margin-bottom: 30px;
+        }
+
+        &__post-text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .price {
+        &__border {
+            width: 270px;
+            height: 450px;
+        }
+
+        &__card {
+            width: 280px;
+            height: 460px;
+        }
+
+        &__card--250 {
+            background-size: 280px;
+        }
+
+        &__card--350 {
+            background-size: 280px;
+        }
+
+        &__card--450 {
+            background-size: 280px;
+        }
+
+        &__title {
+            margin-bottom: 200px;
+        }
+    }
+}
+
+// @media screen and (max-width: 1080px) {
+//     .price {
+//         &__border {
+//             width: 320px;
+//         }
+
+//         &__card {
+//             width: 330px;
+//         }
+
+//         &__card--250 {
+//             background-size: 330px;
+//         }
+
+//         &__card--350 {
+//             background-size: 330px;
+//         }
+
+//         &__card--450 {
+//             background-size: 330px;
+//         }
+//     }
+// }
