@@ -3,7 +3,7 @@
 
     &__list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(2, auto);
         row-gap: 30px;
         column-gap: 30px;
@@ -12,9 +12,6 @@
     &__wrapp {
         position: relative;
         overflow: hidden;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         padding: 30px;
         background-color: #ca5100;
         border-radius: 20px;
@@ -23,11 +20,16 @@
     &__border {
         border: 1px solid #ffffff;
         border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 78px 0;
     }
 
     &__icon {
         fill: #3c3c3c;
-        margin: 70px;
     }
 
     &__overlay {
@@ -49,6 +51,31 @@
     
         .about__item:hover & {
             transform: translateY(0);
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .about {
+        padding: 50px 0;
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(3, auto);
+            row-gap: 30px;
+            column-gap: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about {
+        &__list {
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+            grid-template-rows: repeat(6, auto);
+            row-gap: 30px;
+            column-gap: 30px;
         }
     }
 }
