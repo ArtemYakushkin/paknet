@@ -1,0 +1,27 @@
+.client {
+    padding: 100px 0;
+    background-image: linear-gradient(0deg, #ca510070 0%, #ffffff);
+
+    &__title {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #5d5e5f;
+        margin-bottom: 30px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    &__item {
+        max-width: 200px;
+    }
+}
