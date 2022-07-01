@@ -1,0 +1,86 @@
+.footer {
+    padding: 30px 0;
+    background-color: #2f303a;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        max-width: 120px;
+        margin-right: 50px;
+        margin-left: 40px;
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__contacts-item + &__contacts-item {
+        margin-top: 10px;
+    }
+
+    &__contacts-link {
+        display: block;
+        font-size: 16px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        transition: transform 0.5s;
+        transform: scale(1, 1);
+
+        &:hover {
+            transform: scale(1.2, 1.2);
+            color: #ca5100;
+        }
+    }
+
+    &__wrapper {
+        margin-right: 40px;
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__social {
+        display: flex;
+    }
+
+    &__social-item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__social-item+&__social-item {
+        margin-left: 20px;
+    }
+
+    &__social-link {
+        height: 24px;
+        transition: transform 0.5s;
+        transform: scale(1, 1);
+
+        &:hover {
+            transform: scale(1.2, 1.2);
+        }
+    }
+
+    &__social-icon {
+        fill: #ffffff;
+    }
+
+    &__social-icon:hover {
+        fill: #ca5100;
+    }
+}

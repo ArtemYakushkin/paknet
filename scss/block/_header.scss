@@ -7,7 +7,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
     }
 
     &__logo {
@@ -31,7 +30,7 @@
 
     &__link {
         display: block;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         transition: transform 0.5s;
