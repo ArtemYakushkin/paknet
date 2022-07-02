@@ -9,6 +9,10 @@
         column-gap: 30px;
     }
 
+    &__item {
+        cursor: pointer;
+    }
+
     &__wrapp {
         position: relative;
         overflow: hidden;

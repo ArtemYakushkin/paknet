@@ -500,6 +500,10 @@ button {
   column-gap: 30px;
 }
 
+.about__item {
+  cursor: pointer;
+}
+
 .about__wrapp {
   position: relative;
   overflow: hidden;
@@ -615,6 +619,7 @@ button {
   overflow: hidden;
   background: #ffffff;
   box-shadow: 20px 20px 20px -25px #3c3c3c;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
