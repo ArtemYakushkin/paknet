@@ -8,9 +8,14 @@
         align-items: center;
     }
 
+    &__box {
+        display: flex;
+        align-items: center;
+        margin-right: 40px;
+    }
+
     &__logo {
         max-width: 120px;
-        margin-right: 50px;
         margin-left: 40px;
     }
 
@@ -19,6 +24,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right: 100px;
     }
 
     &__contacts-item + &__contacts-item {
@@ -27,7 +33,7 @@
 
     &__contacts-link {
         display: block;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #ffffff;
@@ -40,12 +46,8 @@
         }
     }
 
-    &__wrapper {
-        margin-right: 40px;
-    }
-
     &__title {
-        font-size: 16px;
+        font-size: 15px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #ffffff;
@@ -82,5 +84,44 @@
 
     &__social-icon:hover {
         fill: #ca5100;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+
+        &__inner {
+            justify-content: space-around;
+        }
+
+        &__box {
+            flex-direction: column;
+        }
+
+        &__contacts {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+
+        &__logo {
+            max-width: 150px;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .footer {
+        &__inner {
+            flex-direction: column;
+        }
+
+        &__box {
+            margin-right: 0;
+        }
+
+        &__logo {
+            margin-left: 0;
+            margin-bottom: 30px;
+        }
     }
 }
