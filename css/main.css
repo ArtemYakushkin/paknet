@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -627,12 +628,12 @@ button {
 }
 
 .price__card--250 {
-  background: url("../img/250ml.jpg") center center no-repeat;
+  background: url("../img/250ml.webp") center center no-repeat;
   background-size: 360px;
 }
 
 .price__card--250:hover {
-  background: url("../img/250ml.jpg") left center no-repeat;
+  background: url("../img/250ml.webp") left center no-repeat;
   background-size: 620px;
 }
 
@@ -645,12 +646,12 @@ button {
 }
 
 .price__card--350 {
-  background: url("../img/350ml.jpg") center center no-repeat;
+  background: url("../img/350ml.webp") center center no-repeat;
   background-size: 360px;
 }
 
 .price__card--350:hover {
-  background: url("../img/350ml.jpg") left center no-repeat;
+  background: url("../img/350ml.webp") left center no-repeat;
   background-size: 620px;
 }
 
@@ -663,12 +664,12 @@ button {
 }
 
 .price__card--450 {
-  background: url("../img/450ml.jpg") center center no-repeat;
+  background: url("../img/450ml.webp") center center no-repeat;
   background-size: 360px;
 }
 
 .price__card--450:hover {
-  background: url("../img/450ml.jpg") left center no-repeat;
+  background: url("../img/450ml.webp") left center no-repeat;
   background-size: 620px;
 }
 
