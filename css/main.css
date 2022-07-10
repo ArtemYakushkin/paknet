@@ -577,6 +577,10 @@ button {
   padding: 100px 0;
 }
 
+.price__click {
+  display: none;
+}
+
 .price__title-top {
   font-family: 'Nunito', sans-serif;
   font-style: normal;
@@ -757,6 +761,25 @@ button {
   .price__title-top {
     font-size: 25px;
     text-align: center;
+  }
+  .price__click {
+    position: absolute;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #00000080;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: display 0.8s;
+  }
+  .price__card--250:hover .price__click {
+    display: none;
   }
   .price__card--250 {
     margin-right: 0;
